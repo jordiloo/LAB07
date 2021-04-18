@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/copy.css" rel="stylesheet">
+    <script src="js/copy.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Lab 7: JavaScript Arithmetic Operator</h1>
+    </header>
+    <form name="Calculator" action="" method="GET">
+        <fieldset>
+            <legend>My calculator</legend>
+            <textarea name="output" id="alltext" rows="3" cols="20"></textarea>
+        </fieldset>
+        <fieldset>
+            <p>Operands: </p>
+            <legend>Input</legend>
+            <input string="Operands: "type="text" id="inp1" name="trname">
+            <input type="text" id="inp2" name="trname"> &nbsp;
+            <p>Operator: </p>
+            <input  type="button" name="submit" value="+" onclick="addValue()">
+            <input  type="button" name="submit" value="&times;" onclick="multiplyValue()">
+            <input  type="button" name="submit" value=":" onclick="divideValue()">
+            <input  type="button" name="submit" value="clear" onclick="clearValue()">
+        </fieldset>
+    </form>
+</body>
+</html>
